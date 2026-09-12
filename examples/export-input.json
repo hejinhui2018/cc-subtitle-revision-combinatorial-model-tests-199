@@ -1,0 +1,14 @@
+{
+  "frameRate": { "numerator": 30000, "denominator": 1001 },
+  "subtitles": [
+    { "id": "E2", "language": "en", "startFrame": 150, "endFrame": 300,
+      "text": "Shared boundaries render identically.", "speaker": null },
+    { "id": "Z2", "language": "zh", "startFrame": 15, "endFrame": 300,
+      "text": "首尾相接处,上一条结束时间与下一条开始时间完全一致。", "speaker": null },
+    { "id": "E1", "language": "en", "startFrame": 0, "endFrame": 150,
+      "text": "Exact timing:\nhalf a millisecond rounds up.", "speaker": "Narrator" },
+    { "id": "Z1", "language": "zh", "startFrame": 0, "endFrame": 15,
+      "text": "精确取整:\n第 15 帧恰为 500.5 毫秒,向上取 501。", "speaker": "解说" }
+  ],
+  "revisions": []
+}

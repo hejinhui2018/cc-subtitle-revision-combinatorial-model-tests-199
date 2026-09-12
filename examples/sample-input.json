@@ -1,0 +1,24 @@
+{
+  "frameRate": { "numerator": 30000, "denominator": 1001 },
+  "subtitles": [
+    { "id": "E2", "language": "en", "startFrame": 150, "endFrame": 300, "text": "Welcome to the show.", "speaker": "Host" },
+    { "id": "S3", "language": "zh", "startFrame": 300, "endFrame": 450, "text": "今天的话题是时轴。", "speaker": "嘉宾" },
+    { "id": "S1", "language": "zh", "startFrame": 0, "endFrame": 150, "text": "大家好。", "speaker": "主持人" },
+    { "id": "E1", "language": "en", "startFrame": 0, "endFrame": 150, "text": "Hello, everyone.", "speaker": "Host" },
+    { "id": "S4", "language": "zh", "startFrame": 450, "endFrame": 600, "text": "下期再见。", "speaker": "主持人" },
+    { "id": "S2", "language": "zh", "startFrame": 150, "endFrame": 300, "text": "欢迎收看本期节目。", "speaker": "主持人" }
+  ],
+  "revisions": [
+    { "revisionId": "r102", "targetId": "S1", "version": 3, "action": "update", "payload": { "text": "大家好,欢迎收看本期节目!" } },
+    { "revisionId": "r200", "targetId": "S2", "version": 1, "action": "update", "payload": { "text": "欢迎收看!" } },
+    { "revisionId": "r401", "targetId": "S4", "version": 2, "action": "update", "payload": { "text": "再见(这条修改不应生效)" } },
+    { "revisionId": "r303", "targetId": "S3", "version": 3, "action": "update", "payload": { "startFrame": 200 } },
+    { "revisionId": "r100", "targetId": "S1", "version": 1, "action": "update", "payload": { "speaker": "主播" } },
+    { "revisionId": "r200", "targetId": "S2", "version": 1, "action": "update", "payload": { "text": "Welcome(同号异内容,冲突)" } },
+    { "revisionId": "r500", "targetId": "S99", "version": 1, "action": "withdraw" },
+    { "revisionId": "r400", "targetId": "S4", "version": 1, "action": "withdraw" },
+    { "revisionId": "r301", "targetId": "S3", "version": 1, "action": "update", "payload": { "endFrame": 400 } },
+    { "revisionId": "r101", "targetId": "S1", "version": 2, "action": "update", "payload": { "text": "大家好!" } },
+    { "revisionId": "r101", "targetId": "S1", "version": 2, "action": "update", "payload": { "text": "大家好!" } }
+  ]
+}
